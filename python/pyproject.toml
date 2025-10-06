@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reports"
+version = "0.0.1"
+description = "Reporting framework: Python interface for C core"
+authors = [{ name = "krab/pena" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["reports"]
