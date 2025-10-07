@@ -4,9 +4,9 @@ import sys
 from types import ModuleType
 
 __version__ = "0.0.1"
-__author__ = "krab/pena"
+__author__ = "krab/amplisuda"
 __license__ = "MIT"
-__description__ = "Reporting framework: Python interface for C core"
+__description__ = "Reporting framework: Python interface for C core. There is a few functions that can help you with data things."
 
 _core: ModuleType | None = None
 
