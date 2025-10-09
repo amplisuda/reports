@@ -3,6 +3,8 @@ import importlib
 import sys
 from types import ModuleType
 
+
+
 __version__ = "0.0.1"
 __author__ = "krab/amplisuda"
 __license__ = "MIT"
@@ -29,9 +31,9 @@ def is_core_loaded() -> bool:
 
 
 def version() -> str:
-    cver = getattr(_core, "version", None)
-    cver_str = f"C-core: {cver()}" if callable(cver) else "C-core: not loaded"
-    return f"Reports {__version__} ({cver_str})"
+#    cver = getattr(_core, "version", None)
+#   cver_str = f"C-core: {cver()}" if callable(cver) else "C-core: not loaded"
+#  return f"Reports {__version__} ({cver_str})"  
 
 
 def echo(msg: str) -> str:
